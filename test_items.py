@@ -11,4 +11,4 @@ def test_add_in_basket(browser):
     
     time.sleep(7)
      
-    result = find_element_by_xpath("//button[text()=' был добавлен в вашу корзину. ']")
+    result = browser.find_element_by_xpath("//button[text()=' был добавлен в вашу корзину. ']")
